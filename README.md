@@ -6,7 +6,7 @@ This projects helps you to connect PostgreSQL to Azure Data Factory using ODBC m
 Steps  to connect to PostgreSQL database using Azure Data Factory as a Linked Service?
 I was banging my head to fix this issue and had no proper documentation that could help me. It was throwing the same SSL error again and again when I used source as PostgreSQL option on Data factory. Below is the error for your reference.
 >> ERROR [28000] [DataDirect][ODBC PostgreSQL Wire Protocol driver]Cannot load trust store
-However, I found an alternative solution to connect to PostgreSQL using Azure Data factory as Linked service using ODBC method. This is for both Source and Sink. You will need couple of other applications apart from Data factory to perform this activity.
+However, I found an alternative solution to connect to PostgreSQL using Azure Data factory as Linked service using ODBC method. This is for source only. You will need couple of other applications apart from Data factory to perform this activity.
 
 Pre-requisites:
 1.	ODBC Drivers for PostgreSQL on your machine (Machine could be the VM or on-prem server which is up and running all the time)
